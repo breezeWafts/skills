@@ -1,0 +1,15 @@
+{
+  "slug": "ember-writer",
+  "name": "超级作家-内容生成器",
+  "version": "2.1.0",
+  "installedAt": 1795277111721,
+  "source": "skillhub",
+  "namespace": "indiv-ember",
+  "canonicalName": "@indiv-ember/ember-writer",
+  "iconSource": "https://skillhub-1388575217.cos.accelerate.myqcloud.com/skill-icons/uploads/828578/cd4787df23be492f8ac183466b997493.png",
+  "labels": {
+    "requires_api_key": "false"
+  },
+  "iconLocalPath": "C:\\Users\\Administrator\\.workbuddy\\skills\\ember-writer__skillhub\\_icon.png",
+  "iconDownloadedFrom": "https://skillhub-1388575217.cos.accelerate.myqcloud.com/skill-icons/uploads/828578/cd4787df23be492f8ac183466b997493.png"
+}

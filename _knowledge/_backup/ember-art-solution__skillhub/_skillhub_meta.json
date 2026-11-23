@@ -1,0 +1,12 @@
+{
+  "slug": "ember-art-solution",
+  "name": "美学主导全场景方案总控",
+  "version": "1.1.0",
+  "installedAt": 1795337595188,
+  "source": "skillhub",
+  "namespace": "indiv-ember",
+  "canonicalName": "@indiv-ember/ember-art-solution",
+  "labels": {
+    "requires_api_key": "false"
+  }
+}
