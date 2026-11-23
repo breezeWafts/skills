@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="34" height="34" role="img" aria-labelledby="ember-title ember-desc" style="--icon-bg:#FAF8F3;--icon-edge:rgba(28,28,28,0.06);--icon-ink:#526883;--icon-cut:#FAF8F3;--icon-card:#1C1C1C;--accent-ha:#B5483A;--icon-stroke:1.5;--icon-radius:20px;">
+  <title id="ember-title">Ember Reader - review</title>
+  <desc id="ember-desc">Warm-white squircle, indigo line drawing, three decreasing intervals and a cycle start; no visible text.</desc>
+  <rect x="1" y="1" width="62" height="62" rx="20" fill="var(--icon-bg)" stroke="var(--icon-edge)" stroke-width="1"/>
+  <!-- spaced review: three decreasing intervals + a cycle start -->
+  <g fill="none" stroke="var(--icon-ink)" stroke-width="var(--icon-stroke)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 25 H43 M21 33 H37 M21 41 H31"/>
+    <circle cx="43" cy="19" r="2.2"/>
+  </g>
+  <path d="M21 47 H43" fill="none" stroke="var(--icon-ink)" stroke-width="var(--icon-stroke)" stroke-linecap="round"/>
+</svg>

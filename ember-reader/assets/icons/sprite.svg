@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="0" height="0" aria-hidden="true" style="position:absolute;--icon-bg:#FAF8F3;--icon-edge:rgba(28,28,28,0.06);--icon-ink:#526883;--icon-cut:#FAF8F3;--icon-card:#1C1C1C;--accent-ha:#B5483A;--icon-stroke:1.5;--icon-radius:20px;">
+  <defs>
+    <symbol id="ember-reader-l1" viewBox="0 0 64 64">
+  <rect x="1" y="1" width="62" height="62" rx="20" fill="var(--icon-bg)" stroke="var(--icon-edge)" stroke-width="1"/>
+  <!-- L1: trunk only, zero branches -->
+  <g fill="none" stroke="var(--icon-ink)" stroke-width="var(--icon-stroke)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 43 V25"/>
+    <circle cx="32" cy="20.5" r="2.8"/>
+  </g>
+  <path d="M21 47 H43" fill="none" stroke="var(--icon-ink)" stroke-width="var(--icon-stroke)" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="ember-reader-l2" viewBox="0 0 64 64">
+  <rect x="1" y="1" width="62" height="62" rx="20" fill="var(--icon-bg)" stroke="var(--icon-edge)" stroke-width="1"/>
+  <!-- L2: two short branch pairs + four square knowledge points -->
+  <g fill="none" stroke="var(--icon-ink)" stroke-width="var(--icon-stroke)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 43 V25"/>
+    <path d="M32 36 H25 M32 36 H39 M32 30 H27 M32 30 H37"/>
+    <circle cx="32" cy="21" r="2.2"/>
+  </g>
+  <g fill="var(--icon-ink)">
+    <rect x="23.6" y="34.6" width="2.8" height="2.8" rx="0.5"/>
+    <rect x="37.6" y="34.6" width="2.8" height="2.8" rx="0.5"/>
+    <rect x="25.6" y="28.6" width="2.8" height="2.8" rx="0.5"/>
+    <rect x="35.6" y="28.6" width="2.8" height="2.8" rx="0.5"/>
+  </g>
+  <path d="M21 47 H43" fill="none" stroke="var(--icon-ink)" stroke-width="var(--icon-stroke)" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="ember-reader-l3" viewBox="0 0 64 64">
+  <rect x="1" y="1" width="62" height="62" rx="20" fill="var(--icon-bg)" stroke="var(--icon-edge)" stroke-width="1"/>
+  <!-- L3: one long branch pair + two story cards -->
+  <g fill="none" stroke="var(--icon-ink)" stroke-width="var(--icon-stroke)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 43 V25"/>
+    <path d="M32 36 C26 36 23 33 22 30"/>
+    <path d="M32 36 C38 36 41 33 42 30"/>
+    <rect x="16.5" y="20" width="11" height="8" rx="2"/>
+    <rect x="36.5" y="20" width="11" height="8" rx="2"/>
+  </g>
+  <path d="M21 47 H43" fill="none" stroke="var(--icon-ink)" stroke-width="var(--icon-stroke)" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="ember-reader-l4" viewBox="0 0 64 64">
+  <rect x="1" y="1" width="62" height="62" rx="20" fill="var(--icon-bg)" stroke="var(--icon-edge)" stroke-width="1"/>
+  <!-- L4: three trunks + one dashed cross-reference line -->
+  <g fill="none" stroke="var(--icon-ink)" stroke-width="var(--icon-stroke)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M23 43 V25 M32 43 V21 M41 43 V25"/>
+    <path d="M20 33 H44" stroke-dasharray="2 3"/>
+  </g>
+  <g fill="var(--icon-ink)">
+    <circle cx="23" cy="22" r="1.6"/>
+    <circle cx="32" cy="18" r="1.6"/>
+    <circle cx="41" cy="22" r="1.6"/>
+  </g>
+  <path d="M21 47 H43" fill="none" stroke="var(--icon-ink)" stroke-width="var(--icon-stroke)" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="ember-reader-study" viewBox="0 0 64 64">
+  <rect x="1" y="1" width="62" height="62" rx="20" fill="var(--icon-bg)" stroke="var(--icon-edge)" stroke-width="1"/>
+  <!-- spaced review: three decreasing intervals + a cycle start -->
+  <g fill="none" stroke="var(--icon-ink)" stroke-width="var(--icon-stroke)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 25 H43 M21 33 H37 M21 41 H31"/>
+    <circle cx="43" cy="19" r="2.2"/>
+  </g>
+  <path d="M21 47 H43" fill="none" stroke="var(--icon-ink)" stroke-width="var(--icon-stroke)" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="ember-reader-export" viewBox="0 0 64 64">
+  <rect x="1" y="1" width="62" height="62" rx="20" fill="var(--icon-bg)" stroke="var(--icon-edge)" stroke-width="1"/>
+  <!-- authorised export: knowledge box + outward arrow -->
+  <g fill="none" stroke="var(--icon-ink)" stroke-width="var(--icon-stroke)" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="17" y="22" width="20" height="20" rx="5"/>
+    <path d="M28 32 H46 M42 28 L46 32 L42 36"/>
+  </g>
+  <path d="M21 47 H43" fill="none" stroke="var(--icon-ink)" stroke-width="var(--icon-stroke)" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+</svg>

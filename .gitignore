@@ -1,1 +1,21 @@
-_*
+# 排除仓库根目录下以 _ 开头的【目录】：构建中间产物
+# （_ocr OCR 采样图与全文、_icon_v2 浏览器缓存、_knowledge 同步快照）
+# 这些在工作区 build/ 下都有原件，不上传约 70MB 的扫描图与缓存。
+/_*/
+
+# 注意：只排除根目录的「目录」，不要写裸的 `_*` 或 `_*`，
+# 否则各 skill 目录内的 _icon.png / _meta.json / _skillhub_meta.json
+# 会被误忽略，导致图标与版本元数据无法随版本同步。
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
+*.pyo
+*.swp
+*~
+
+# SkillHub 上传包由工作区 dist/ 单独构建，不入库
+*.zip

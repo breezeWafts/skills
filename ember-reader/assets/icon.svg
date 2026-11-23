@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="34" height="34" role="img" aria-labelledby="ember-title ember-desc" style="--icon-bg:#FAF8F3;--icon-edge:rgba(28,28,28,0.06);--icon-ink:#526883;--icon-cut:#FAF8F3;--icon-card:#1C1C1C;--accent-ha:#B5483A;--icon-stroke:1.5;--icon-radius:20px;">
+  <title id="ember-title">Ember Reader</title>
+  <desc id="ember-desc">warm-white tile, indigo book, one vermilion dot</desc>
+  <rect x="1" y="1" width="62" height="62" rx="20" fill="var(--icon-bg)" stroke="var(--icon-edge)" stroke-width="1"/>
+  <!-- one closed book: a solid tile; the trunk is cut out of it -->
+  <rect x="17" y="19" width="30" height="30" rx="9" fill="var(--icon-ink)"/>
+  <g fill="none" stroke="var(--icon-cut)" stroke-width="var(--icon-stroke)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 41 V24"/>
+    <path d="M32 38 C27 38 23.5 35.5 21.5 32.5"/>
+    <path d="M32 38 C37 38 40.5 35.5 42.5 32.5"/>
+    <path d="M32 33 C28.5 33 26 30.5 24.5 28"/>
+    <path d="M32 33 C35.5 33 38 30.5 39.5 28"/>
+    <path d="M32 28 C30 28 28.5 26.5 27.5 25"/>
+    <path d="M32 28 C34 28 35.5 26.5 36.5 25"/>
+  </g>
+  <circle cx="32" cy="22" r="1.7" fill="var(--icon-cut)"/>
+  <path d="M23 52 H41" fill="none" stroke="var(--icon-ink)" stroke-width="var(--icon-stroke)" stroke-linecap="round"/>
+  <!-- one controlled break: the only warm dot in the whole system -->
+  <circle cx="46.5" cy="17" r="2.2" fill="var(--accent-ha)"/>
+</svg>
