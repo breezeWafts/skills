@@ -1,6 +1,6 @@
 # Ember Aesthetics Skills
 
-> 一套以「美学主导」为核心的内容生成方案 Skills，覆盖文章、小说、分镜、摄影、海报封面、UI、室内、园林、造景、声景等全场景。
+> WorkBuddy / SkillHub 技能源码镜像：美学主导的全场景内容生成 Skills，以及「超级读者」书籍渐进式理解 Skill。
 
 本仓库是 [WorkBuddy](https://www.workbuddy.cn/) / SkillHub 平台的技能源码镜像，用于版本留存与分发。**上传包（zip）由工作区单独构建，本仓库存放解压后的源码形态。**
 
@@ -31,6 +31,7 @@
 | [`ember-storyboard-build__skillhub/`](./ember-storyboard-build__skillhub/) | `/ember-storyboard-build` | 2.2.0 | 长短视频分镜脚本 |
 | [`ember-photography-posing__skillhub/`](./ember-photography-posing__skillhub/) | `/ember-photography-posing` | 2.2.0 | 单张 / 组照拍摄方案 |
 | [`evan-design__skillhub/`](./evan-design__skillhub/) | `/evan-design` | 2.2.0 | 东方美学界面与视觉规范 |
+| [`ember-reader/`](./ember-reader/) | `/ember-reader` | **1.4.0** | 超级读者 · 书籍渐进式理解与知识提炼（含五领域知识库、PNG 图标体系） |
 
 每个目录的标准结构：
 
@@ -59,7 +60,7 @@
 
 > **每次 skill 版本更新，都会用工作区最新源码覆盖本仓库中对应的 skill 目录，并同步更新根 README 版本表与目录内 README。**
 
-同步由 `tools/sync_skills.py` 执行，支持全量 / 指定 skill / 仅比对 / 自动提交推送。详见 [tools/README.md](./tools/README.md)。
+同步由 `tools/sync_skills.py` 执行（已合并两路来源，覆盖全部 6 个 skill），支持全量 / 指定 skill / 仅比对 / 自动提交推送。详见 [tools/README.md](./tools/README.md)。
 
 ## 依赖与许可
 
